@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showBitmapShader"
+            android:text="BitmapShader" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_toRightOf="@id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showLinearGradient"
+            android:text="LinearGradient" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_below="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadialGradient"
+            android:text="RadialGradient" />
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_toRightOf="@+id/btnThree"
+            android:layout_below="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showSweepGradient"
+            android:text="SweepGradient" />
+
+        <Button
+            android:id="@+id/btnFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showComposeShader"
+            android:layout_below="@+id/btnThree"
+            android:text="ComposeShader" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:textSize="26sp"
+            android:layout_toRightOf="@+id/btnFive"
+            android:layout_below="@+id/btnThree"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+        <com.mg.axe.gradient.base.view.BitmapShaderTestView
+            android:id="@+id/bitmapShader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+             />
+
+        <com.mg.axe.gradient.base.view.LinearGradientTestView
+            android:id="@+id/linearGradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <com.mg.axe.gradient.base.view.RadialGradientTestView
+            android:id="@+id/radialGradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <com.mg.axe.gradient.base.view.SweepGradientTestView
+            android:id="@+id/sweepGradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <com.mg.axe.gradient.base.view.ComposeShaderTestView
+            android:id="@+id/composeShader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+</LinearLayout>

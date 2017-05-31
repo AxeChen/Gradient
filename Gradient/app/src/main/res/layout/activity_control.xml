@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="圆形图案"
+        android:onClick="showRoundImage"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="渐变文字"
+        android:onClick="showGradientView"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="雷达效果"
+        android:onClick="showRadarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="点击波纹效果"
+        android:onClick="showWaveView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

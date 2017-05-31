@@ -1,4 +1,4 @@
-package com.mg.axe.gradient;
+package com.mg.axe.gradient.simple.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,10 +11,11 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.mg.axe.gradient.ScreenUtils;
+
 /**
- * @Author Name
+ * @Author Chen
  * @Create 2017/5/31 0031
- * @Description Content
  */
 
 public class RadarView extends View {
@@ -61,7 +62,6 @@ public class RadarView extends View {
 
 
     }
-
 
     @Override
     protected void onDraw(Canvas canvas) {

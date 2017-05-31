@@ -1,4 +1,4 @@
-package com.mg.axe.gradient;
+package com.mg.axe.gradient.base.view;
 
 import android.content.Context;
 import android.graphics.BitmapShader;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <com.mg.axe.gradient.simple.view.GradientTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="这个效果是不是很屌？既然如此就点个赞再走吧！"
+        />
+
+</LinearLayout>

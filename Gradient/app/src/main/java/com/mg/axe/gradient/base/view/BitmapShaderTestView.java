@@ -1,4 +1,4 @@
-package com.mg.axe.gradient;
+package com.mg.axe.gradient.base.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,6 +11,8 @@ import android.graphics.Shader;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.mg.axe.gradient.R;
 
 /**
  * Created by Chen on 2017/5/25.

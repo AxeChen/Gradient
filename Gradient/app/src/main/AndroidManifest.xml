@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".base.ui.TestActivity"/>
+        <activity android:name=".simple.activity.ControlActivity"/>
+        <activity android:name=".simple.activity.GradientTextActivity"/>
+        <activity android:name=".simple.activity.RadarViewActivity"/>
+        <activity android:name=".simple.activity.RoundImageActivity"/>
+        <activity android:name=".simple.activity.WaveViewActivity"/>
+
     </application>
 
 </manifest>
